@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>table</title>
+</head>
+<body align=center>
+	<a href="../index.html">index page</a>
+	<h1>tabels</h1>
+
+	<table align=center border="1" cellpadding="10" cellspacing="0" 
+	borderColor="green" width="100%" height="500px">
+		<thead>
+			<tr>
+				<th>someText</th>
+				<th>someText</th>
+				<th>someText</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>someText</td>
+				<td>someText</td>
+				<td>someText</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>someText</td>
+				<td>someText</td>
+				<td>someText</td>
+			</tr>
+		</tfoot>
+	</table>
+	<h2>Colspan</h2>
+	<table width=100% height=500 cellspacing="0" cellpadding="10" border="1">
+		<tbody>
+			<tr id="firstRow">
+				<td colspan="2">someText</td>
+				
+				<td>someText</td>
+			</tr>
+			<tr id="secondRow">
+				<td colspan="3">someText</td>
+				
+			</tr>
+			<tr id="thirdRow">
+				<td>someText</td>
+				<td colspan="2">someText</td>
+			
+			</tr>
+		</tbody>
+	</table>
+
+
+
+
+	<h2>Rowspan</h2>
+	<table width="100%" height="500" border="1" cellspacing="0" cellpadding="10">
+		<tbody>
+			<tr>
+				<td rowspan="2">1+4</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+		
+				<td>5</td>
+				<td rowspan="2">6+9</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>8</td>
+				
+			</tr>
+		</tbody>
+	</table>
+	
+</body>
+</html>
